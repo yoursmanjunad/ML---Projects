@@ -1,0 +1,20 @@
+
+# Sonar Object Detection
+
+Basically, submarines in Ocean (defence), they may get attack by the enemies by sea weapons like Mine, etc. It's hard to know what's happening in the deep sea with a light, so here we trust sound and Vibrations. 
+
+We can detect whether we are facing any weapons or not in the deep sea, but in ocean it do haves rocks aswell! It's hard to predict which one is rock and whoch one is Mine, so to differentiate using the records of it's vibrations and other parameters, we can detect the object. 
+
+Here we are just considering two cases, whether the object can be a Mine or a Rock. Binary outcome. 
+
+To perform this, we need a dataset to work on. I am attaching this dataset within repository, do check it out. 
+
+We use here Numpy, Pandas and Sklearn to predict whether it is a mine or a rock. 
+
+First, to load the dataset, we've to use a variable to store it and we can further easily work on the dataset. 
+
+Here, for example i'm taking as df. 
+
+df.read_csv("/path/to/dataset) is used to read all the records in the file and proceed further in predecting. 
+
+Header = None is used to mark columns from 0 to 59. 
